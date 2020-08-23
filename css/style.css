@@ -1,0 +1,596 @@
+/*
+/* 
+           Master Stylesheet
+    ============================
+    Template Name :EnerzyBiz || HTML Template
+    Author: Akash Ovi
+    Author url: https://akashovi.com;
+    Descriptions: Html Templete
+    Version: 1.0.0
+    Tag: blog, two colluom
+
+ */
+
+/*
+           Table of Content
+        =====================
+ 1. Typography
+ 2. Header
+ 3. Banner
+ 4. Services
+ 5. Partners
+ 6. Offers
+ 7. Market
+ 8. About
+ 9. Offers2
+ 10. Our Sponsors
+ 11. Footer
+
+*/
+
+/*================================
+			TYPOGRAPHY
+==================================*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700&display=swap');
+
+body{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6{
+	margin: 0;
+	padding: 0;
+	color: #0f0c51;
+}
+h2{
+	font-size: 40px;
+}
+p{
+	margin: 0;
+	color: #0f0c51;
+}
+a{
+	text-decoration: none;
+	color: #0f0c51;
+}
+
+.container{
+	width: 90%;
+	margin: 0 auto;
+}
+
+
+/*================================
+			HEADER START
+==================================*/
+#header{
+	padding: 40px 0;
+}
+.nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.logo a img{
+	margin-top: 5px;
+}
+.menu ul li{	
+	display: inline-block;
+}
+.menu ul li a{
+	font-size: 18px;
+	font-weight: 500;
+	padding: 0 25px;
+}
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+.menu ul li:hover a{
+	color: #ed1e27;
+	transition: .4s linear;
+	-moz-transition: .4s linear;
+	-webkit-transition: .4s linear;
+}
+/*================================
+			HEADER END
+==================================*/
+
+/*================================
+			BANNER START
+==================================*/
+#banner{
+	background-image: url(../img/banner.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 900px;
+	position: relative;
+	z-index: 1;
+}
+.banner-content{
+	padding: 100px 0;
+}
+.banner-content h2{
+	font-size: 75px;
+	font-weight: 700;
+	color: #fff;
+	width: 810px;
+}
+.banner-content p{
+	font-size: 18px;
+	font-weight: 300;
+	color: #fff;
+	width: 490px;
+	margin: 35px 0 50px;
+}
+.newsletter{
+	position: relative;
+	width: 400px;
+}
+.newsletter input{
+	height: 45px;
+	width: 75%;
+	color: #fff;
+	background: #100d55;
+	border: none;
+	border-radius: 25px;
+	padding-left: 15px;
+	padding-right: 50px;
+	box-sizing: border-box;
+}
+.newsletter input:focus{
+	outline: none;
+}
+.newsletter button{
+	position: absolute;
+	text-transform: capitalize;
+	color: #0f0c51;
+	padding: 15px 30px;
+	right: 0;
+	border: none;
+	border-radius: 25px;
+	cursor: pointer;
+}
+.newsletter button:hover{
+	color: #fff;
+	background: #ed1e27;
+	transition: .4s ease-in-out;
+	-moz-transition: .4s ease-in-out;
+	-webkit-transition: .4s ease-in-out;
+}
+.newsletter button:focus{
+	outline: none;
+}
+
+/*-- sponsor start --*/
+.sponsor{
+	display: flex;
+	justify-content: space-between;
+	margin: 65px 0;
+}
+.s-img{
+	display: inline-block;
+}
+.s-img img{
+	width: 250px;
+}
+/*-- sponsor start --*/
+
+.bg-vec img{
+	position: absolute;
+	top: 120px;
+	right: 70px;
+	z-index: -1;
+}
+/*================================
+			BANNER END
+==================================*/
+/*================================
+			SERVICES START
+==================================*/
+
+#services{
+	padding: 150px 0;
+	position: relative;
+}
+.sevice-content h2{
+	font-weight: 700;
+	color: #0f0c51;
+}
+.sevice-content p{
+	font-size: 18px;
+	width: 530px;
+	color: #0f0c51;
+}
+.overview{
+	display: flex;
+	width: 300px;
+	margin-top: 60px;
+}
+.o-img{
+	width: 90px;
+}
+.o-img img{
+	width: 65px;
+	cursor: pointer;
+}
+.o-text{
+	width: 200px;
+	margin-top: 5px;
+}
+.o-text span{
+	display: inline-block;
+	font-size: 18px;
+	color: #0f0c51;
+}
+.o-text p{
+	display: inline-block;
+	font-size: 18px;
+	color: #0f0c51;
+}
+/*-- Registration start --*/
+.registration{
+    width: 520px;
+    height: 770px;
+    background-color: #151163;
+    border-radius: 35px;
+    position: absolute;
+    top: -90px;
+    right: 82px;
+    z-index: 1; 
+}
+.registration:hover{
+	box-shadow: 0px 0px 15px 10px #e9e9e9;
+	transition: .3s linear;
+	-webkit-transition: .3s linear;
+	-moz-transition: .3s linear;
+}
+.form-head{
+	text-align: center;
+	background-color: #fff;
+	padding: 45px 50px;
+	border-radius: 30px;
+}
+.form-head h3{
+	font-size: 25px;
+	font-weight: 500;
+	color: #151163;
+	margin-bottom: 25px;
+}
+.form-head p{
+	color: #151163;
+}
+.r-container{
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 65px;
+}
+.r-container input{
+	height: 55px;
+    width: 98%;
+    border: none;
+    margin-bottom: 25px;
+    border-radius: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    outline: none;
+    letter-spacing: 1px;
+    box-sizing: border-box;
+}
+.r-container input:focus{
+	outline: none;
+}
+.r-container button{
+	font-family: 'Poppins', sans-serif;
+	font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #151163;
+	width: 100%;
+    padding: 30px 0;
+    border: none;
+    border-radius: 50px;
+    background: #fff;
+    cursor: pointer;
+}
+.r-container button:focus{
+	outline: none;
+}
+.r-container button:hover{
+	color: #fff;
+	background: #ed1e27;	
+    transition: .4s ease-in-out;
+    -moz-transition: .4s ease-in-out;
+    -webkit-transition: .4s ease-in-out;
+}
+
+/*-- Registration end --*/
+
+/*================================
+			SERVICES END
+==================================*/
+
+/*================================
+			PARTNERS START
+==================================*/
+#partners{
+	padding: 150px 0;
+}
+.partner-content h2{
+	text-align: center;
+	color: #151163;
+	margin-bottom: 60px;
+}
+.p-img{
+	display: flex;
+    justify-content: space-between;
+}
+.p-img a img{
+	width: 270px;
+}
+/*================================
+			PARTNERS END
+==================================*/
+
+/*================================
+			OFFERS START
+==================================*/
+
+#offers{
+	background-color: #1c1a76;
+	padding: 300px 0 200px;
+	position: relative;
+}
+.offers-content h2{
+	font-size: 60px;
+	font-weight: 700;
+	color: #fff;
+}
+.of-img{
+	display: flex;
+	justify-content: space-between;
+}
+.m200{
+	margin-top: 200px;
+}
+.of-img a img{
+	width: 250px;
+}
+.offers-content h2 span{
+	color: red;
+}
+.o-vec img{
+	position: absolute;
+    top: 150px;
+    right: 60px;
+    width: 500px;
+}
+/*================================
+			OFFERS END
+==================================*/
+
+/*================================
+			MARKET START
+==================================*/
+#market{
+	padding: 200px 0 0;
+}
+.market-wrapper{
+	display: flex;
+	justify-content: space-around;
+}
+.market-content{
+	width: 50%;
+}
+.market-content h2{
+	font-weight: 700;
+}
+.market-content>p{
+	letter-spacing: 1px;
+    width: 520px;
+    margin: 40px 0 20px;
+}
+.m-item{
+	display: flex;
+	justify-content: space-between;
+}
+.item{
+	width: 50%;
+	margin-top: 50px;
+}
+.item h4{
+	font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.item p{
+	font-size: 15px;
+}
+
+/*-- market-img start --*/
+
+.market-img{
+	width: 40%;
+    background-color: #f6fbff;
+    padding: 30px;
+    box-sizing: border-box;
+    height: 700px;
+}
+.m-img{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 25px;
+}
+.m-img img{
+	width: 130px;
+}
+/*-- market-img end --*/
+/*================================
+			MARKET END
+==================================*/
+/*================================
+			ABOUT START
+==================================*/
+#about{
+	padding: 150px 0;
+}
+.about-wrapper p{
+	font-size: 18px;
+	width: 530px;
+}
+.about-wrapper h2{
+	margin: 30px 0 40px;
+	    width: 700px;
+}
+
+/*-- about-footer start --*/
+.about-footer{
+	display: flex;
+	justify-content: space-between;
+    margin-top: 80px;
+}
+.a-vec{
+    width: 50%;
+    margin-top: 60px;
+}
+.p-item{
+	display: flex;
+}
+.box{
+	width: 230px;
+	padding: 80px 50px;
+	text-align: center;
+	margin: 0 15px;
+	border-radius: 30px;
+	box-sizing: border-box;
+	background: #efefef1a;
+	cursor: pointer;
+	margin-bottom: 15px;
+}
+.box:hover{
+	box-shadow: 0px 0px 10px 2px #b9b9b9;
+	transition: .3s linear;
+	-moz-transition: .3s linear;
+	-webkit-transition: .3s linear;
+}
+.box p{
+	font-size: 18px;
+	font-weight: 500;
+	text-transform: capitalize;
+}
+
+
+/*-- about-footer end --*/
+
+/*================================
+			ABOUT END
+==================================*/
+
+/*================================
+			OFFER2 START
+==================================*/
+#offer2{
+	padding: 150px 0;
+	background-color: #fcfcfc;
+}
+.offer2-wrapper{
+	text-align-last: center;
+}
+.offer2-wrapper h2 span{
+	display: block;
+	color: #ff0000;
+	margin-top: 25px;
+}
+.offer2-wrapper p{
+	font-size: 18px;
+    width: 760px;
+    margin: 70px auto 0;
+}
+.offer2-wrapper button{
+	font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+	padding: 15px 45px;
+    border: 3px solid #1c1a76;
+    background: #1c1a76;
+    color: #fff;
+    cursor: pointer;
+}
+.offer2-wrapper button:hover{
+	background: transparent;
+	color: #1c1a76;
+	transition: .3s ease-in-out;
+	-moz-transition: .3s ease-in-out;
+	-webkit-transition: .3s ease-in-out;
+}
+
+.o2-vec{
+	margin: 50px 0 80px;
+}
+.o2-vec img{}
+
+/*================================
+			OFFER2 END
+==================================*/
+
+/*================================
+			OUR SPONSORS START
+==================================*/
+#our-sponsors{
+	padding: 150px 0;
+}
+.our-sponsors p{
+	text-align: center;
+	margin-bottom: 50px;
+}
+.os-img{
+	display: flex;
+	justify-content: space-around;
+}
+.os-img img{
+	width: 175px;
+}
+/*================================
+			OUR SPONSORS END
+==================================*/
+
+/*================================
+			FOOTER START
+==================================*/
+
+.footer-top{
+	padding: 150px 0;
+	background-color: #1c1a76;
+}
+.footer-content{
+	display: flex;
+    margin: 0 auto;
+    width: 60%;
+}
+.footer-box{
+	width: 280px;
+}
+.footer-box h4{
+	font-size: 25px;
+	font-weight: 500;
+	color: #fff;
+	margin-bottom: 25px;
+}
+.footer-box p{
+	font-size: 17px;
+	color: #fff;
+}
+
+.footer-bottom{
+	padding: 35px 0;
+}
+.footer-bottom p{
+	text-align: center;
+}
+/*================================
+			FOOTER END
+==================================*/
